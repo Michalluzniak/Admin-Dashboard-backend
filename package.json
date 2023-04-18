@@ -9,7 +9,7 @@
   "private": true,
   "license": "UNLICENSED",
   "engines": {
-    "node": "19.x"
+    "node": "18.x"
   },
   "scripts": {
     "prebuild": "rimraf dist",
