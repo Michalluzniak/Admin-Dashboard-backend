@@ -1,6 +1,6 @@
 {
   "version": 2,
   "name": "Admin Dashboard Backend",
-  "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
+  "builds": [{ "src": "./dist/api/index.js", "use": "@vercel/node" }],
   "routes": [{ "src": "/(.*)", "dest": "/" }]
 }
